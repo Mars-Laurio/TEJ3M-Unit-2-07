@@ -35,7 +35,6 @@ void loop() {
   Serial.print("Distance: ");
   if(distance < 50) {
     servoNumber1.write(180);
-    print("Object Found")
   }
     else{
       servoNumber1.write(0);
